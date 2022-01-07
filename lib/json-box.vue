@@ -119,7 +119,7 @@ export default {
           'jv-key': true
         },
         domProps: {
-          innerText: `${this.keyName}:`
+          innerText: `"${this.keyName}":`
         }
       }))
     }
